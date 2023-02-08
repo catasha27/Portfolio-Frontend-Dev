@@ -206,7 +206,7 @@ blockquote {
     justify-content: center;
     align-items: center;
     width: 80%;
-    height: 30rem;
+    min-height: 30rem;
 }
 
 .quote-icon, blockquote p, blockquote h2 {
@@ -417,6 +417,10 @@ textarea {
     border: none;
 }
 
+.bottom-wave {
+    position: relative;
+    bottom: -1px;
+}
 
 /* ######### FOOTER ######### */
 
@@ -651,6 +655,16 @@ footer {
     fieldset label:first-child {
         margin-right: 0;
     }
+
+      /* # FOOTER # */
+
+      .site-map {
+        flex-direction: column;
+        /* padding-top: 20px; */
+    }
+
+
+
   }
 
 
