@@ -556,7 +556,6 @@ footer {
     .contact-container {
         flex-direction: column;
         padding: 2rem;
-        width: 95%;
         border: none;
     }
 
@@ -572,8 +571,86 @@ footer {
         width: 100%;
     }
 
+    .contact-message {
+        padding-left: 0;
+    }
 }
      
+
+
+  /* ### MOBILE ### */
+
+  @media (max-width:480px) {
+    
+    /* # MAIN # */
+    .main-column {
+        padding: 0;
+    }
+
+    /* # ABOUT # */
+    .about-info p:last-of-type {
+        font-size: 1.8em;
+    }    
+
+    /* # SKILLS # */
+    .skill-container {
+        width: 90%;
+    }
+    #skills p {
+        width: 80%;
+        font-size: 1.8em;
+    }
+
+    /* # PROJECTS # */
+    .projects-intro {
+        width: 90%;
+    }
+    
+    .projects-description {
+        font-size: 1.8em;
+    }
+
+    .projects-container {
+        width: 100%;
+    }
+
+    .project-card {
+        width: 60%;
+        padding: 1.5rem 0;
+    }
+    
+   .projects-container:last-child {
+        display: flex;
+        justify-content: center;
+    }
+
+    .project-img {
+        height: 100px;
+    }
+
+    /* # CONTACT # */
+    .contact-container {
+        width: 100%;
+    }
+
+    .contact-info>p {
+        font-size: 1.8em;
+    }
+
+    .contact-info>ul {
+        flex-direction: column;
+        align-self: flex-start;
+        width: 100%;
+    }
+
+    fieldset {
+        flex-direction: column;
+    }
+
+    fieldset label:first-child {
+        margin-right: 0;
+    }
+  }
 
 
 /* ######## PÁGINA EN CONSTRUCCIÓN ########## */
