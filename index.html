@@ -10,7 +10,7 @@
     <!-- <meta property="og:image" content="FALTA PONER RUTA DSD EL HOSTING.jpg" /> -->
     <meta property="og:description" content="Portfolio profesional de la Desarolladora Frontend Sharime Cahuas donde se pueden acceder a algunos de los proyectos realizados."/>
     <meta name="description" content="Portfolio profesional de la Desarolladora Frontend Sharime Cahuas donde se pueden acceder a algunos de los proyectos realizados."/>
-    <meta name="keywords" content="programadora, frontend, sharime, cahuas,maquetado, web, app, ">
+    <meta name="keywords" content="programadora, frontend, sharime, cahuas,maquetado, web, app, html, css, JavaScript, Sass, GIT, react">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="shortcut icon" href="./comet-solid.svg" type="image/x-icon">
@@ -21,233 +21,226 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#about">HOLA</a></li>
-                <li><a href="#skills">CONOCIMIENTOS</a></li>
-                <li><a href="#projects">PROYECTOS</a></li>
-                <li><a class="btn" href="#contact">CONTACTO</a></li>
+                <li><a href="#about">hola</a></li>
+                <li><a href="#skills">conocimientos</a></li>
+                <li><a href="#projects">proyectos</a></li>
+                <li class="btn-container"><a class="btn" href="#contact">contacto</a></li>
             </ul>
         </nav>
+        <svg version="1.1" viewBox="0 0 1440 110" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+             <filter id="filter9702" x="-.005" y="-.10252" width="1.01" height="3" color-interpolation-filters="sRGB">
+              <feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+              <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+              <feGaussianBlur in="composite1" result="blur" stdDeviation="15"/>
+              <feOffset dx="0" dy="3" result="offset"/>
+              <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+             </filter>
+            </defs>
+            <path d="m-3.3001e-4 32 80 10.7c80 10.3 240 32.3 400 26.6 160-5.3 320-37.3 480-42.6 160-5.7 320 16.3 400 26.6l80 10.7v-64h-80-400-480-400-80z" fill="#f9f9f9" filter="url(#filter9702)"/>
+        </svg>
     </header>
     <main>
-        <section id="about">
-            <article>
-                <span class="welcome">¡ Hola !  Soy</span>
+        <section id="about" class="main-column">
+            <article class="about-info">
+                <p class="welcome">¡ Hola !  Soy</p>
                 <h1>Sharime Cahuas</h1>
                 <p>Desarolladora Frontend, Diseñadora Industrial, gamer amateur y maker.</p>
-                <a href="projects">Lo que hago</a>
+                <a class="about-btn" href="#projects">Lo que hago</a>
             </article>
             <figure>
-                <img src="./ilustraciones/intro_undraw_modern_professional_re_3b6l.svg" alt="">
+                <img src="./ilustraciones/intro_undraw_modern_professional_re_3b6l.svg" alt="imagen de una mujer sentada sobre banco alto mirando al frente" class="about-img">
             </figure>
         </section>
-
-        <section id="skills">
+        <section id="skills"  class="main-column">
             <h2>Mis conocimientos</h2>
             <p>Estos son las herramienta de desarrollo web que manejo para maquetar, diseñar y mejorar el flujo de trabajo.  
             </p>
             <section class="skill-container">
                 <article class="skill-card">
-                    <figure class="skill-img">
-                        <i class="devicon-html5-plain colored"></i>
-                        <figcaption><span class="skill-name">HTML 5</span></figcaption>
+                    <figure>
+                        <i class="devicon-html5-plain colored skill-img" aria-hidden="true"></i>
+                        <figcaption class="skill-name">HTML 5</figcaption>
                     </figure>
                 </article>
                 <article class="skill-card">
-                    <figure class="skill-img">
-                        <i class="devicon-css3-plain colored"></i>
-                        <figcaption><span class="skill-name">CSS 3</span></figcaption>
+                    <figure>
+                        <i class="devicon-css3-plain colored skill-img"  aria-hidden="true"></i>
+                        <figcaption class="skill-name">CSS 3</figcaption>
                     </figure>
                 </article>
                 <article class="skill-card">
-                    <figure class="skill-img">
-                        <i class="devicon-javascript-plain colored"></i>
-                        <figcaption><span class="skill-name">JavaScript</span></figcaption>
+                    <figure>
+                        <i class="devicon-sass-original colored skill-img"  aria-hidden="true"></i>
+                        <figcaption class="skill-name">Sass</figcaption>
                     </figure>
                 </article>
                 <article class="skill-card">
-                    <figure class="skill-img">
-                        <i class="devicon-react-original colored"></i>
-                        <figcaption><span class="skill-name">React</span></figcaption>
+                    <figure>
+                        <i class="devicon-javascript-plain colored skill-img"  aria-hidden="true"></i>
+                        <figcaption class="skill-name">JavaScript</figcaption>
                     </figure>
                 </article>
                 <article class="skill-card">
-                    <figure class="skill-img">
-                        <i class="devicon-sass-original colored"></i>
-                        <figcaption><span class="skill-name">Sass</span></figcaption>
+                    <figure>
+                        <i class="devicon-react-original colored skill-img"  aria-hidden="true"></i>
+                        <figcaption class="skill-name">React</figcaption>
                     </figure>
                 </article>
                 <article class="skill-card">
-                    <figure class="skill-img">
-                        <i class="devicon-git-plain colored"></i>
-                        <figcaption><span class="skill-name">GIT</span></figcaption>
+                    <figure>
+                        <i class="devicon-git-plain colored skill-img"  aria-hidden="true"></i>
+                        <figcaption class="skill-name">GIT</figcaption>
                     </figure>
                 </article>
             </section>
         </section>
-
-        <section class="quote">
+        <section id="quote"  class="main-column">
             <blockquote>
-                <i class="fas fa-quote-right quote-icon"></i>
-                <p>Considero que es vital incluir a las mujeres en la informática. Mi slogan es: La informática es muy importante para dejarla solo a mano de los hombres.</p>
+                <i class="fa-solid fa-quote-right quote-icon"  aria-hidden="true"></i>
+                <p>Considero que es vital incluir a las mujeres en la informática.  Mi slogan es:  La informática es muy importante para dejarla solo a mano de los hombres.</p>
                 <h2>Karen Spärck Jones</h2>
             </blockquote>    
         </section>
-        
-        <section id="projects">
-            <article class="intro-projects">
+        <section id="projects"  class="main-column">
+            <article class="projects-intro">
                 <h2>Mis Proyectos</h2>
-                <p class="project-description">Estos son los proyectos que voy a desarrollar a lo largo del curso.</p>
+                <p class="projects-description">Estos son algunos de los proyectos que he desarrollado a lo largo de la carrera de Desarrollo Web Fronted en ADA ITW y otros en proceso.</p>
             </article>
             <section class="projects-container">
-                <section class="cards-container">
-                    <article class="project-card">
-                        <a href="#" target="_blank">
-                            <figure>
-                                <img src="./ilustraciones/portafolio_undraw_portfolio_re_qwm5.svg" alt="imagen de mujer realizando acción X">
-                                <figcaption>
-                                    <span class="project-name">Portfolio</span>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </article>
-                    <article class="project-card">
-                        <a href="#" target="_blank">
-                            <figure>
-                            <img src="./ilustraciones/meme_undraw_online_popularity_re_nm0s.svg" alt="imagen de mujer realizando acción X">
-                                <figcaption>
-                                <span class="project-name">Generador de memes</span>
-                            </figcaption>
-                        </figure>
-                        </a>
-                    </article>
-                    <article class="project-card">
-                        <a href="#" target="_blank">
-                            <figure>
-                            <img src="./ilustraciones/juego_undraw_video_game_night_8h8m.svg" alt="imagen de mujer realizando acción X">
-                                <figcaption>
-                                <span class="project-name">Match 3</span>
-                            </figcaption>
-                        </figure>
-                        </a>
-                    </article>
-                    <article class="project-card">
-                        <a href="#" target="_blank">
-                            <figure>
-                            <img src="./ilustraciones/gastos_undraw_investment_data_re_sh9x.svg" alt="imagen de mujer realizando acción X">
-                                <figcaption>
-                                <span class="project-name">Controlador de gastos</span>
-                            </figcaption>
-                        </figure>
-                        </a>
-                    </article>
-                    <article class="project-card">
-                        <a href="#" target="_blank">
-                            <figure>
-                            <img src="./ilustraciones/calendario_undraw_calendar_re_ki49.svg" alt="imagen de mujer realizando acción X">
-                                <figcaption>
-                                <span class="project-name">Administrador de reuniones</span>
-                            </figcaption>
-                        </figure>
-                        </a>
-                    </article>
-                    <article class="project-card">
-                        <a href="#" target="_blank">
-                            <figure>
-                            <img src="./ilustraciones/todo_app_undraw_up_to_date_re_nqid.svg" alt="imagen de mujer realizando acción X">
-                                <figcaption>
-                                <span class="project-name">Todo app</span>
-                            </figcaption>
-                        </figure>
-                        </a>
-                    </article>
-                    <article class="project-card">
-                        <a href="#" target="_blank">
-                            <figure>
-                            <img src="./ilustraciones/pelis_undraw_movie_night_re_9umk.svg" alt="imagen de mujer realizando acción X">
-                                <figcaption>
-                                <span class="project-name">Buscador de películas</span>
-                            </figcaption>
-                        </figure>
-                        </a>
-                    </article>
-                </section>
+                <a href="#" class="project-card">
+                    <figure>
+                        <img src="./ilustraciones/portafolio_undraw_portfolio_re_qwm5.svg" alt="imagen de mujer frente a pantalla mostrando varios recuadros de color" class="project-img">
+                        <figcaption class="project-name">Portfolio</figcaption>
+                    </figure>
+                </a>
+                <a href="coming_soon.html" class="project-card" target="_blank">
+                    <!-- CONSULTA: debería abrirse cada proyecto en un nuevo tab o recargar la pág. actual, para que el redireccionamiento de retorno de la pág. en construcción no genere nuevos tabs. IDEM PARA LOS DEMÁS PROYECTOS -->
+                    <figure>
+                        <img src="./ilustraciones/meme_undraw_online_popularity_re_nm0s.svg" alt="imagen de mujer frente a una tablet con una publicación de una imagen-meme" class="project-img">
+                        <figcaption class="project-name">Generador de memes
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="coming_soon.html" class="project-card" target="_blank">
+                    <figure>
+                        <img src="./ilustraciones/juego_undraw_video_game_night_8h8m.svg" alt="imagen de mujer sentada sobre unos auriculares grandes e imagen de hombre parado al lado de un gamepad grande de playstation" class="project-img">
+                        <figcaption class="project-name">Match 3</figcaption>
+                    </figure>
+                </a>
+                <a href="coming_soon.html" class="project-card" target="_blank">
+                    <figure>
+                        <img src="./ilustraciones/gastos_undraw_investment_data_re_sh9x.svg" alt="imagen de mujer parada al lado de un gráfico de barras sosteniendo billetes" class="project-img">
+                        <figcaption class="project-name">Controlador de gastos</figcaption>
+                    </figure>
+                </a>
+                <a href="coming_soon.html" class="project-card" target="_blank">
+                    <figure>
+                        <img src="./ilustraciones/calendario_undraw_calendar_re_ki49.svg" alt="imagen de mujer frente a pantalla de calendario queriendo sumar un nuevo evento" class="project-img">
+                        <figcaption class="project-name">Administrador de reuniones</figcaption>
+                    </figure>
+                </a>
+                <a href="coming_soon.html" class="project-card" target="_blank">
+                    <figure>
+                        <img src="./ilustraciones/todo_app_undraw_up_to_date_re_nqid.svg" alt="imagen de mujer parada al lado de una enorme lista de tareas" class="project-img">
+                        <figcaption class="project-name">Todo app</figcaption>
+                    </figure>
+                </a>
+                <a href="coming_soon.html" class="project-card" target="_blank">
+                    <figure>
+                        <img src="./ilustraciones/pelis_undraw_movie_night_re_9umk.svg" alt="imagen de mujer sentada frente a otra comiendo snacks, ambas mirando la pantalla de una laptop con el ícono de play" class="project-img">
+                        <figcaption class="project-name">Buscador de películas</figcaption>
+                    </figure>
+                </a>
             </section>
         </section>
-        <section id="contact">
-            <article class="contat-info">
-                <h2>Contáctame</h2>
-                <p>Si deseas conectarte conmigo lo podrás hacer en las siguientes plataformas online.</p>
-                <ul>
-                    <li>
-                        <a href="https://discord.com/" target="_blank">
-                            <i class="fa-brands fa-discord"></i> @catasha_27
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/catasha27" target="_blank">
-                            <i class="fa-brands fa-github-alt"></i> @catasha27 
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/sharime-cahuas-tamayo-273081/" target="_blank">
-                            <i class="fa-brands fa-linkedin-in"></i> Sharime Cahuas
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:sharimecahuas@gmail.com" >
-                            <i class="fa-regular fa-paper-plane"></i> 
-                            sharimecahuas@gmail.com 
-                        </a>
-                    </li>
-                </ul>
-            </article>
-            <article class="contact-message">
-                <h2>Escríbeme</h2>
-                <form action="">
-                    <label for="">Nombre *</label>
-                    <input type="text" name="name" required>
-                    <label for="">Apellido *</label>
-                    <input type="text" name="last name" required>
-                    <label for="">Email *</label>
-                    <input type="email" name="email" required>
-                    <label for="">Mensaje *</label>
-                    <textarea name="message" rows="8" columns="30" required>Deja tu mensaje aquí</textarea>
-                    <button>Enviar</button>
-                </form>
-            </article>
+        <section id="contact"  class="main-column">
+            <section class="contact-container">
+                <article class="contact-info">
+                    <h2>Contáctame</h2>
+                    <p>Si deseas conectarte conmigo lo podrás hacer en las siguientes plataformas online.</p>
+                    <ul class="contact-icons-wrapper">
+                        <li>
+                            <a href="https://discord.com/" target="_blank">
+                                <i class="fa-brands fa-discord contact-icons-container"  aria-hidden="true"></i> @catasha_27
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/catasha27" target="_blank">
+                                <i class="fa-brands fa-github-alt contact-icons-container"  aria-hidden="true"></i> @catasha27
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/sharime-cahuas-tamayo-273081/" target="_blank">
+                                <i class="fa-brands fa-linkedin-in contact-icons-container"  aria-hidden="true"></i> Sharime Cahuas
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:sharimecahuas@gmail.com">
+                                <i class="fa-regular fa-paper-plane contact-icons-container"  aria-hidden="true"></i>
+                                sharimecahuas@gmail.com
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+                <article class="contact-message">
+                    <h2>Escríbeme</h2>
+                    <form action="https://formsubmit.co/dinofogi@mailgolem.com" method="POST" >
+                        <fieldset class="personal-data">
+                            <label for="">Nombre *
+                                <input type="text" name="name" required>
+                            </label>
+                            <label for="">Apellido *
+                                <input type="text" name="last name" required>
+                            </label>
+                        </fieldset>
+                        <label for="">Email *
+                            <input type="email" name="email" required>
+
+                        </label>
+                        <label for="">Mensaje *
+                            <textarea name="message" rows="8" columns="30" placeholder="Deja tu mensaje aquí" required></textarea>
+
+                        </label>
+                        <button type="submit" class="subtmit-btn btn">Enviar</button>
+                        <!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> -->
+                    </form>
+                </article>
+            </section>
         </section>
     </main>
     <footer>
+        <img src="./ilustraciones/wave turquesa_con fondo gris.svg" alt="" aria-hidden="true">
         <ul class="site-map">
-            <li><a href="#about">HOLA</a></li>
-            <li><a href="#skills">CONOCIMIENTOS</a></li>
-            <li><a href="#projects">PROYECTOS</a></li>
-            <li><a href="#contact">CONTACTO</a></li>
+            <li><a href="#about">hola</a></li>
+            <li><a href="#skills">conocimientos</a></li>
+            <li><a href="#projects">proyectos</a></li>
+            <li><a href="#contact">contacto</a></li>
         </ul>
-        <ul>
+        <ul class="contact-icons-wrapper row">
             <li>
-                <a href="https://discord.com/" target="_blank">
-                    <i class="fa-brands fa-discord"></i>
+                <a href="https://discord.com/" target="_blank" class="contact-icons-container">
+                    <i class="fa-brands fa-discord contact-icons"  aria-hidden="true" ></i>
                 </a>
             </li>
             <li>
-                <a href="https://github.com/catasha27" target="_blank">
-                    <i class="fa-brands fa-github-alt"></i>
+                <a href="https://github.com/catasha27" target="_blank" class="contact-icons-container">
+                    <i class="fa-brands fa-github-alt contact-icons"  aria-hidden="true"></i>
                 </a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/sharime-cahuas-tamayo-273081/" target="_blank">
-                    <i class="fa-brands fa-linkedin-in"></i>
+                <a href="https://www.linkedin.com/in/sharime-cahuas-tamayo-273081/" target="_blank" class="contact-icons-container">
+                    <i class="fa-brands fa-linkedin-in contact-icons"  aria-hidden="true"></i>
                 </a>
             </li>
             <li>
-                <a href="mailto:sharimecahuas@gmail.com" >
-                    <i class="fa-regular fa-paper-plane"></i>  
+                <a href="mailto:sharimecahuas@gmail.com" class="contact-icons-container">
+                    <i class="fa-regular fa-paper-plane contact-icons"  aria-hidden="true"></i>  
                 </a>
             </li>
         </ul>
         <p id="farewell-message">Hecho con 
-            <img src="./corazon_en_palma.svg" alt="icono de corazón rojo sobre palma de mano abierta en color turquesa"> 
+            <img src="./corazon_en_palma_blanca.svg" alt="icono de corazón rojo sobre palma de mano abierta en color turquesa"> 
             por Sharime Cahuas</p>
     </footer>
 </body>
