@@ -157,6 +157,7 @@ h1 {
     justify-content: center;
     flex-wrap: wrap;
     width: 70%;
+    max-width: 50rem;
 }
 
 .skill-card {

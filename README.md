@@ -67,7 +67,7 @@ Portfolio profesional de la Desarolladora Frontend Sharime Cahuas donde se puede
 ![portfolio proyectos interactivo en desktop](./capturas_de_pantalla/portfolio%20detalle%20header%20y%20footer%20en%20desktop.png)
 
 
-## *AGRADEZCO LA DEDICACIÓN Y PACIENCIA DE NUESTRAS DOCENTES MACARENA Y MARIANA DURANTE TODA LA CURSADA DEL MÓDULO 1*
+## *AGRADEZCO LA DEDICACIÓN Y PACIENCIA DE NUESTRAS DOCENTES MACARENA RAMIREZ Y MARIANA JUÁREZ DURANTE TODA LA CURSADA DEL MÓDULO 1*
 
 
 ## *GRACIAS POR TU VISITA*
