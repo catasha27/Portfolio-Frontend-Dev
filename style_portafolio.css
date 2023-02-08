@@ -675,14 +675,14 @@ footer {
 .coming-soon-message>p {
     padding: 1rem 0;
     font-family: var(--highlight-font);
-    font-size: 5em;
+    font-size: 3.5em;
     font-weight: 400;
     color: var(--main-font-color)
 }
 
 .coming-soon-message>a {
     font-family: var(--main-font);
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 300;
     color: var(--light-font-color);
     text-align: center;
